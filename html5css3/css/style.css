@@ -1,0 +1,319 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+* h1, * h2, * h3, * p {
+  margin-bottom: 0.8em;
+}
+
+.flex-container-row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.flex-container-column {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.menu {
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  background-color: #000000;
+  color: #FFFFFF;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+}
+
+.menu a {
+  color: #FFFFFF;
+  text-decoration: none;
+}
+
+.menu ul {
+  list-style-type: none;
+}
+
+.menu li {
+  margin: 10px;
+}
+
+.section-details {
+  width: 70vw;
+  padding: 3vw;
+}
+
+.alinharTop {
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+}
+
+.listaDeLinks {
+  width: 30vw;
+}
+
+.listaDeLinks ul {
+  list-style-type: none;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+}
+
+.listaDeLinks li {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 10px;
+}
+
+.listaDeLinks img {
+  width: 50px;
+  height: 50px;
+}
+
+.listaDeLinks a {
+  margin: 0 20px;
+  text-decoration: none;
+  color: #000000;
+}
+
+#footer {
+  background-color: #000000;
+  color: #FFFFFF;
+}
+
+#footer ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  list-style-type: none;
+  -ms-flex-line-pack: justify;
+      align-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#footer li {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 10px;
+}
+
+main, section {
+  height: 75vh;
+  text-align: center;
+  overflow: hidden;
+}
+
+#Destaque {
+  background: url(/img/Destaque_o20.png);
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+#HTML {
+  background: -webkit-gradient(linear, left top, right top, from(rgba(228, 77, 38, 0.8)), to(rgba(241, 101, 41, 0.8)));
+  background: linear-gradient(90deg, rgba(228, 77, 38, 0.8) 0%, rgba(241, 101, 41, 0.8) 100%);
+}
+
+#CSS {
+  background: -webkit-gradient(linear, left top, right top, from(rgba(38, 77, 228, 0.8)), to(rgba(41, 101, 241, 0.8)));
+  background: linear-gradient(90deg, rgba(38, 77, 228, 0.8) 0%, rgba(41, 101, 241, 0.8) 100%);
+}
+
+#JavaScript {
+  background: -webkit-gradient(linear, left top, right top, from(rgba(229, 162, 40, 0.8)), to(rgba(241, 191, 38, 0.8)));
+  background: linear-gradient(90deg, rgba(229, 162, 40, 0.8) 0%, rgba(241, 191, 38, 0.8) 100%);
+}
+
+#LinksUteis {
+  background: -webkit-gradient(linear, left top, right top, from(#BBBBBB), to(#DDDDDD));
+  background: linear-gradient(90deg, #BBBBBB 0%, #DDDDDD 100%);
+}
+
+.botaoMenu {
+  visibility: hidden;
+}
+
+#menuNav {
+  color: #FFFFFF;
+}
+
+.botao {
+  background-color: #000000;
+  color: #FFFFFF;
+  padding: 10px 20px;
+  border-radius: 10px;
+  text-decoration: none;
+  width: 200px;
+  font-weight: 900;
+}
+
+.botao:hover {
+  background-color: #FFFFFF;
+  color: #000000;
+}
+
+.destaqueHTML {
+  color: #E44D26;
+}
+
+.destaqueCSS {
+  color: #264DE4;
+}
+
+.destaqueJS {
+  color: #E5A228;
+}
+
+@media (orientation: landscape) {
+  #Destaque {
+    background-size: 110vw;
+  }
+  #InverterFlexBox {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: row-reverse;
+            flex-direction: row-reverse;
+  }
+}
+
+@media (orientation: portrait) {
+  #Destaque {
+    background-size: 200vw;
+  }
+}
+
+@media (min-width: 0) {
+  #logo {
+    width: 100px;
+    height: 100px;
+  }
+  .menu {
+    height: 50px;
+  }
+  .menu ul {
+    height: 50px;
+  }
+  .botaoMenu {
+    visibility: visible;
+    float: right;
+  }
+  #menuNav {
+    visibility: hidden;
+  }
+}
+
+@media (min-width: 576px) and (orientation: landscape) {
+  .botaoMenu {
+    visibility: hidden;
+  }
+}
+
+@media (min-width: 576px) and (orientation: portrait) {
+  #logo {
+    width: 200px;
+    height: 200px;
+  }
+  .menu {
+    height: 100px;
+  }
+  .menu ul {
+    height: 100px;
+  }
+  .botaoMenu {
+    visibility: hidden;
+  }
+}
+
+@media (min-width: 768px) {
+  #logo {
+    width: 200px;
+    height: 200px;
+  }
+  .menu {
+    height: 100px;
+  }
+  .menu ul {
+    height: 100px;
+  }
+  .botaoMenu {
+    visibility: hidden;
+  }
+}
+
+@media (min-width: 992px) {
+  #logo {
+    width: 260px;
+    height: 260px;
+  }
+  .menu {
+    height: 130px;
+  }
+  .menu ul {
+    height: 130px;
+  }
+  .botaoMenu {
+    visibility: hidden;
+  }
+}
+/*# sourceMappingURL=style.css.map */
